@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивна сторінка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-icon" id="menuIcon">
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="slides" id="slides">
+            <div class="slide" style="background-image: url('https://via.placeholder.com/800x400');"></div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/850x500');"></div>
+            <div class="slide" style="background-image: url('https://via.placeholder.com/850x450');"></div>
+        </div>
+        <button class="arrow left" id="prev">&#10094;</button>
+        <button class="arrow right" id="next">&#10095;</button>
+        <div class="indicators" id="indicators"></div>
+    </section>
+
+    <section class="images">
+        <div class="large-only">
+            <img src="https://via.placeholder.com/300x200" alt="Large Image 1">
+            <img src="https://via.placeholder.com/300x200" alt="Large Image 2">
+        </div>
+        <div class="medium-only">
+            <img src="https://via.placeholder.com/300x200" alt="Medium Image 1">
+            <img src="https://via.placeholder.com/300x200" alt="Medium Image 2">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
