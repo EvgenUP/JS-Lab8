@@ -41,4 +41,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setInterval(nextSlide, 3000);
 });
-
